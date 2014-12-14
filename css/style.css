@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+.main-body{
+	font-family:Arial;
+	text-align:justify;
+	
+}
+.left-div p {
+	margin-bottom:21px;
+	margin-top:14px;
+	font-size:13px;
+	color:#a49191;
+	
+}
+.left-div h1 {
+	font-weight:normal;
+	font-size:16px;
+	letter-spacing:2px;
+	color:#0d0d0d;
+	
+}
+/*
+.left-div button{
+	background-color:#388796;
+	color:#FFF;
+	border-radius:5px;
+	border:1px solid #1e6d7c;
+	height:9px;
+	padding:8px;
+	box-shadow:#d9d9d9;
+}
+*/
+
+/* tab styling*/
+.tab ul {
+	height:50px;
+	margin-top:85px;
+	float:left;
+}
+.tab ul li {
+	width:193px;
+	margin-left:2px;
+	list-style:none;
+	float:left;
+	text-align:center;
+}
+.tab ul li a {
+	text-decoration:none;
+	width:auto;
+	float:left;
+	line-height:44px;
+	display:block;
+	background-color: #3d8896;
+	color:white;
+	padding:0px 10px 0px 10px;
+	width:173px;
+}
+.tab ul li:hover {
+	margin-top:7px;
+}
+/*footer */
+.footerpart1 p {
+	word-spacing:6px;
+}
+.ftlist ul{
+	float:left;
+}
+.ftlist ul li{
+	list-style:none;
+	float:left;
+	width:220px;
+	margin-right:25px;
+}
+.ftlist ul li p{
+	font-size: 11px;
+	float:right;
+	width:180px;
+	line-height:15px;
+	margin-top:0px;
+}
+.ftlist ul li img{
+	margin-top:4px;
+	float:left;
+
+}
+.ftlist ul li p span{
+	font-size:10px;
+}
