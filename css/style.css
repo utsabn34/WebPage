@@ -1,23 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
-.main-body{
-	font-family:Arial;
-	text-align:justify;
-	
+/* main body styling*/
+.main-body {
+	font-family: Arial;
+	text-align: justify;
 }
+/* left div stylin */
 .left-div p {
-	margin-bottom:21px;
-	margin-top:14px;
-	font-size:13px;
-	color:#a49191;
-	
+	margin-bottom: 21px;
+	margin-top: 14px;
+	font-size: 13px;
+	color: #a49191;
 }
 .left-div h1 {
-	font-weight:normal;
-	font-size:16px;
-	letter-spacing:2px;
-	color:#0d0d0d;
-	
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: #0d0d0d;
 }
 /*
 .left-div button{
@@ -33,56 +32,157 @@
 
 /* tab styling*/
 .tab ul {
-	height:50px;
-	margin-top:85px;
-	float:left;
+	height: 50px;
+	margin-top: 85px;
+	float: left;
 }
 .tab ul li {
-	width:193px;
-	margin-left:2px;
-	list-style:none;
-	float:left;
-	text-align:center;
+	width: 193px;
+	margin-left: 2px;
+	list-style: none;
+	float: left;
+	text-align: center;
 }
 .tab ul li a {
-	text-decoration:none;
-	width:auto;
-	float:left;
-	line-height:44px;
-	display:block;
+	text-decoration: none;
+	width: auto;
+	float: left;
+	line-height: 44px;
+	display: block;
 	background-color: #3d8896;
-	color:white;
-	padding:0px 10px 0px 10px;
-	width:173px;
+	color: white;
+	padding: 0px 10px 0px 10px;
+	width: 173px;
 }
 .tab ul li:hover {
-	margin-top:7px;
+	margin-top: 7px;
 }
+/*products styling*/
+
+.products ul {
+	list-style: none;
+}
+.products ul li {
+	width: 280px;
+	height: 306px;
+	float: left;
+	margin-right: 56px;
+	padding: 0px 0px 30px 0px;
+}
+.products ul li p {
+	font-size: 13px;
+	line-height: 15px;
+	height: 80px;
+}
+.products ul li img {
+	height: 170px;
+	width: 280px;
+}
+.products ul li a img {
+	height: 25px;
+	width: 69px;
+}
+.products ul li h2 {
+	font-weight: normal;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
 /*footer */
 .footerpart1 p {
-	word-spacing:6px;
+	word-spacing: 6px;
 }
-.ftlist ul{
-	float:left;
+.ftlist ul {
+	float: left;
 }
-.ftlist ul li{
-	list-style:none;
-	float:left;
-	width:220px;
-	margin-right:25px;
+.ftlist ul li {
+	list-style: none;
+	float: left;
+	width: 220px;
+	margin-right: 25px;
 }
-.ftlist ul li p{
+.ftlist ul li p {
 	font-size: 11px;
-	float:right;
-	width:180px;
-	line-height:15px;
-	margin-top:0px;
+	float: right;
+	width: 180px;
+	line-height: 15px;
+	margin-top: 0px;
 }
-.ftlist ul li img{
-	margin-top:4px;
-	float:left;
-
+.ftlist ul li img {
+	margin-top: 4px;
+	float: left;
 }
-.ftlist ul li p span{
-	font-size:10px;
+.ftlist ul li p span {
+	font-size: 10px;
+}
+/* ftnav div stylin */
+.ftnav {
+	color: #a49191;
+}
+.ftnav ul {
+	float: left;
+}
+.ftnav ul li {
+	line-height: 20px;
+	font-size: 11px;
+	padding: 0px 10px;
+	float: left;
+	list-style: none;
+	background: url(../img/stripes.png) top left;
+	background-repeat: no-repeat;
+}
+.ftnav ul li a {
+	text-decoration: none;
+	color: black;
+}
+.ftnav ul li:hover a {
+	color: #3794a5;
+}
+.ftnav img {
+	float: left;
+	padding: 5px 10px 5px 0px;
+	cursor: pointer;
+}
+/* ftcountry div stylin */
+.ftcountry img {
+	cursor: pointer;
+}
+.ftcountry ul {
+	width: 23px;
+	height: 14px;
+	overflow: hidden;
+	float: left;
+}
+.ftcountry ul li {
+	float: left;
+	list-style: none;
+}
+.ftcountry a img {
+	margin-left: 8px;
+	line-height: 14px;
+}
+.ftcountry a {
+	text-decoration: none;
+	margin-left: 10px;
+	line-height: 14px;
+	color: #a4a4a4;
+}
+/* ftbottom nav div stylin */
+.ftbottom-nav ul {
+	float: right;
+}
+.ftbottom-nav ul li {
+	background: url(../img/stripes.png) top right;
+	background-repeat: no-repeat;
+	float: left;
+	line-height: 17px;
+	list-style: none;
+	padding: 0px 10px;
+}
+.ftbottom-nav ul li a {
+	text-decoration: none;
+	color: #4c4c4c;
+}
+.ftbottom span {
+	float: right;
 }
