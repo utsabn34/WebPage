@@ -7,6 +7,7 @@
 .container {
 	width: 1069px;
 	margin: 0px auto;
+	min-height:1800px;
 }
 /* header div styling*/
 .header {
@@ -79,3 +80,33 @@
 	float: right;
 	width: 810px;
 }
+/* button layout*/
+.button {
+	float: left;
+}
+.lightbox {
+	width: 1008px;
+	height: 470px;
+	position: absolute;
+	top: 13px;
+	left: 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #e8e8e8;
+	background-color: rgba(0,0,0,0.1);
+	padding: 35px 30px 35px 30px;
+}
+.closebtn {
+	width: 23px;
+	height: 26px;
+	position: absolute;
+	right: 22px;
+	top: 8px;
+	background-image:url(../img/closebtn.png);
+}
+.lightbox img {
+	width: 1009px;
+	height: 470px;
+	
+}
+
