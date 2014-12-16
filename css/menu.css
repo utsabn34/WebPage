@@ -1,39 +1,114 @@
 @charset "utf-8";
 /* CSS Document */
-/* menu div stylin */
+
 .menu ul {
-	height: 51px;
 	float: left;
-	font-family: Arial;
 }
 .menu ul li {
-	list-style: none;
 	float: left;
-	line-height: 51px;
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 17px;
+	height: 80px;
+	color: white;
 }
 .menu ul li a {
-	padding: 0px 8px 0px 8px;
-	margin-top: 4px;
+	background: #a49191;
+	line-height: 50px;
+	padding: 0px 16px;
+	margin: 15px 0px;
 	display: block;
 	text-decoration: none;
-	font-size: 18px;
+	color: white;
+}
+.menu ul li ul {
+	display: none;
+	position: absolute;
+	background-color: #594e4e;
+	margin-top: -6px;
+	z-index: 10;
+	padding: 2px 0px 4px 0px;
+}
+.menu ul li ul li {
+	float: none;
+	height: 28px;
+}
+.menu ul li ul li a {
+	background-color: #5a93e9;
+	line-height: 28px;
+	padding-left: 10px;
+	margin: 2px 0px;
+	min-width: 176px;
+	text-align: left;
+	display: block;
+	text-decoration: none;
 	color: white;
 }
 .menu ul li:hover {
-	margin-top: -15px;
-	line-height: 72px;
-	padding-top: 4px;
+	background: #5a93e9;
+}
+.menu ul li:hover a {
+	background: none;
+	margin: 0px;
+	padding: 15px 16px;
+	line-height: 50px;
+}
+.menu ul li:hover ul {
 	display: block;
+}
+.menu ul li:hover ul li {
+	background: none;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	line-height: 28px;
+}
+.menu ul li:hover ul li a {
+	background: #5a93e9;
+	margin: 0px;
+	padding: 0px;
+	line-height: 28px;
+}
+.menu ul li:hover ul li a {
+	line-height: 28px;
+	padding-left: 10px;
+	margin: 2px 0px;
+}
+.menu ul li.active {
+	background: #5a93e9;
+}
+.menu ul li.active a {
+	background: none;
+	margin: 0px;
+	padding: 15px 16px;
+	line-height: 50px;
+}
+/*searchbox styling*/
+
+.searchbox {
+	float: right;
+	padding: 15px 0px;
+	height: 50px;
+}
+.searchbox img {
+	float: right;
+	height: 50px;
+	cursor: pointer;
+}
+.searchbox span {
 	float: left;
-	background-color: #5a93e9;
+	display: block;
+	background: #a49191;
+	padding: 0px 16px;
+	margin-right: 1px;
 }
-.menu input {
-	padding: 0px 14px 0px 9px;
-	margin: 13px 16px 12px 16px;
-	width: 182px;
-	height: 22px;
+.searchbox span input {
+	margin: 12px 0px;
+	height: 8px;
+	width: 191px;
+	background: #e6e6e6;
+	border: none;
 	color: #a49191;
-}
-.search_img {
-	margin-left: 1px;
+	padding: 9px 12px;
 }

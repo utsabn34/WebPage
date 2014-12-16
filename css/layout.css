@@ -2,24 +2,26 @@
 /* CSS Document */
 /* main div styling*/
 .wrapper {
-	background-color: blue;
+	background-color: #FFF;
 }
 .container {
 	width: 1069px;
 	margin: 0px auto;
-	min-height:1800px;
+	min-height: 1800px;
+	backgrounds-image: url(../img/trace.png);
 }
 /* header div styling*/
 .header {
 	background-color: #594e4e;
 	padding: 31px 30px 10px 30px;
+	height: 189px;
 }
 .logo {
-	margin-bottom: 51px;
+	margin-bottom: 17px;
 }
 .menu {
-	background-color: #a49191;
 	float: left;
+	margin-top: 20px;
 }
 .banner {
 	background-color: #a49191;
@@ -28,7 +30,7 @@
 }
 /*  body div styling*/
 .main-body {
-	padding: 24px 30px 0px 30px;
+	padding: 24px 30px 0px 31px;
 	min-height: 634px;
 	background-color: #FFF;
 	border-bottom: 2px solid #b2b2b2;
@@ -48,7 +50,7 @@
 .footer {
 }
 .footerpart1 {
-	min-height: 242px;
+	min-height: 212px;
 	background-image: url(../img/background-slice.png);
 	background-repeat: repeat;
 	padding: 38px 30px 40px 58px;
@@ -63,7 +65,7 @@
 }
 .ftnav {
 	background-color: #FFF;
-	padding: 4px 30px 6px 58px;
+	padding: 4px 30px 6px 50px;
 	height: 20px;
 }
 .ftbottom {
@@ -79,6 +81,10 @@
 .ftbottom-nav {
 	float: right;
 	width: 810px;
+}
+.country {
+	float: left;
+	height: 14px;
 }
 /* button layout*/
 .button {
@@ -102,11 +108,9 @@
 	position: absolute;
 	right: 22px;
 	top: 8px;
-	background-image:url(../img/closebtn.png);
+	background-image: url(../img/closebtn.png);
 }
 .lightbox img {
 	width: 1009px;
 	height: 470px;
-	
 }
-

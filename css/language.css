@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.country span {
+	margin-left:10px;
+	display: block;
+	float: right;
+	line-height: 15px;
+	font-size: 8px;
+	cursor:pointer;
+}
+.country span img {
+	margin-left:10px;
+	float: right;
+	
+}
+
+.country ul {
+	padding-top:20px;
+	float: none;
+	display: none;
+	
+	width:80px;
+	
+}
+.country ul li {
+	float:left;
+	margin-top: 2px;
+	height: 15px;
+	list-style-type: none;
+}
+.country img {
+	height:15px;
+	float: left;
+}
+.country form {
+	display: none;
+}

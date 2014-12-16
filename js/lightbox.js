@@ -10,7 +10,7 @@ zoombtn.onclick=function(){
 
 function Lightbox(){
 	var that=this;
-	this.parent=(document.getElementsByClassName("main-body"))[0];
+	this.parent=document.getElementById("body");
 	this.closebtn;
 	this.element;
 	this.image;
@@ -22,6 +22,7 @@ function Lightbox(){
 	console.log(that.parent);
 	that.closebtn=document.createElement("div");
 	that.closebtn.className="closebtn";
+	that.closebtn.style.cursor="Pointer";
 	that.element.appendChild(that.closebtn);
 	console.log(that.closebtn);
 	that.closebtn.onclick=function(){

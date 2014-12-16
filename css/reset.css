@@ -1,10 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-*{
-	padding:0px;
-	margin:0px;
+* {
+	padding: 0px;
+	margin: 0px;
 }
 .clearfix {
-	display:block;
+	display: block;
 }

@@ -14,7 +14,7 @@
 }
 .left-div h1 {
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 15px;
 	letter-spacing: 2px;
 	color: #0d0d0d;
 }
@@ -32,7 +32,7 @@
 /* right -div styling*/
 .right-div {
 	width: 280px;
-	margin-right: 5px;
+	margin-right: 1px;
 	float: right;
 	text-align: center;
 }
@@ -40,7 +40,6 @@
 	padding: 25px 60px 65px 0px;
 	display: block;
 	text-align: center;
-	
 }
 .rtdiv-buy.button {
 	margin: 5px 0px 0px 48px;
@@ -49,7 +48,6 @@
 	color: #636363;
 	display: block;
 	font-size: 28px;
-	
 }
 .rtdiv-buy.button a {
 	padding: 10px 35px 10px 35px;
@@ -57,19 +55,17 @@
 	margin-top: 5px;
 	font-size: 31px;
 	border: none;
-	
 }
-
-
 /* tab styling*/
 .tab ul {
 	height: 50px;
 	margin-top: 85px;
 	float: left;
+	font-size: 12px;
 }
 .tab ul li {
 	width: 193px;
-	margin-left: 2px;
+	margin-left: 1px;
 	list-style: none;
 	float: left;
 	text-align: center;
@@ -85,8 +81,10 @@
 	padding: 0px 10px 0px 10px;
 	width: 173px;
 }
-.tab ul li:hover {
+.tab ul li.tab1 {
 	margin-top: 7px;
+	margin-right: 2px;
+	margin-left: 2px;
 }
 /*products styling*/
 
@@ -94,11 +92,11 @@
 	list-style: none;
 }
 .products ul li {
-	width: 280px;
+	width: 275px;
 	height: 306px;
 	float: left;
 	margin-right: 56px;
-	padding: 0px 0px 30px 0px;
+	padding: 0px 0px 24px 5px;
 }
 .products ul li p {
 	font-size: 13px;
@@ -118,7 +116,6 @@
 	font-size: 14px;
 	margin-bottom: 10px;
 }
-
 /*footer */
 .footerpart1 p {
 	word-spacing: 6px;
@@ -156,10 +153,10 @@
 .ftnav ul li {
 	line-height: 20px;
 	font-size: 11px;
-	padding: 0px 10px;
+	padding: 0px 11px;
 	float: left;
 	list-style: none;
-	background: url(../img/stripes.png) top left;
+	background: url(../img/stripes.png) 0 0;
 	background-repeat: no-repeat;
 }
 .ftnav ul li a {
@@ -171,7 +168,7 @@
 }
 .ftnav img {
 	float: left;
-	padding: 5px 10px 5px 0px;
+	padding: 5px 10px 5px 9px;
 	cursor: pointer;
 }
 /* ftcountry div stylin */
@@ -203,12 +200,15 @@
 	float: right;
 }
 .ftbottom-nav ul li {
-	background: url(../img/stripes.png) top right;
+	background: url(../img/stripes.png) 0 0;
 	background-repeat: no-repeat;
 	float: left;
 	line-height: 17px;
 	list-style: none;
-	padding: 0px 10px;
+	padding: 0px 14px;
+}
+.ftbottom-nav ul li:first-child {
+	background-image: none;
 }
 .ftbottom-nav ul li a {
 	text-decoration: none;
@@ -219,15 +219,16 @@
 }
 /* button styling*/
 
+.button {
+	background: url('../img/clickbtn.png');
+	padding: 5px 0px 1px 9px;
+}
 .button a {
-	display: block;
-	text-decoration: none;
-	border:1px solid #1e6d7c; 
-	border-radius: 5px;
-	background-color: #3b8896;
-	font-size: 11px;
-	line-height: 22px;
-	padding: 0px 7px 0px 7px;
 	color: white;
-	
+	background: url('../img/rtbtn.png') 100% 0 no-repeat;
+	line-height: 16px;
+	padding: 6px 9px 2px 0px;
+	height: 25px;
+	font-size: 12px;
+	text-decoration: none;
 }
