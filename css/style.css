@@ -37,24 +37,38 @@
 	text-align: center;
 }
 .right-div span {
-	padding: 25px 60px 65px 0px;
+	
+	padding: 22px 60px 12px 0px;
 	display: block;
 	text-align: center;
+	font-size:32px;
+	margin-top:75px;
 }
-.rtdiv-buy.button {
-	margin: 5px 0px 0px 48px;
-	text-align: center;
-	font-weight: normal;
-	color: #636363;
-	display: block;
-	font-size: 28px;
+.right-div img{
+	padding-top:13px;
 }
-.rtdiv-buy.button a {
-	padding: 10px 35px 10px 35px;
-	background-color: #636363;
-	margin-top: 5px;
-	font-size: 31px;
-	border: none;
+#zoombtn{
+	padding-top:42px;
+	padding-right:51px;
+	
+}
+.right-div button{
+	float: left;
+	text-align:center;
+	margin-left:49px;
+    background: #636363;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    width: 110px;
+    height: 35px;
+}
+.buy span{
+    color: #636363;
+    display: block;
+    font-size: 16px;
+    text-align: center;
 }
 /* tab styling*/
 .tab ul {
@@ -70,8 +84,7 @@
 	float: left;
 	text-align: center;
 }
-.tab ul li a {
-	text-decoration: none;
+.tab ul li {
 	width: auto;
 	float: left;
 	line-height: 44px;
@@ -80,8 +93,9 @@
 	color: white;
 	padding: 0px 10px 0px 10px;
 	width: 173px;
+	cursor: pointer;
 }
-.tab ul li.tab1 {
+.tab ul li.active {
 	margin-top: 7px;
 	margin-right: 2px;
 	margin-left: 2px;
@@ -171,29 +185,27 @@
 	padding: 5px 10px 5px 9px;
 	cursor: pointer;
 }
+.ftnav ul li.active a{
+	color:#3794a5;
+}
 /* ftcountry div stylin */
-.ftcountry img {
-	cursor: pointer;
-}
-.ftcountry ul {
-	width: 23px;
-	height: 14px;
-	overflow: hidden;
-	float: left;
-}
-.ftcountry ul li {
-	float: left;
-	list-style: none;
-}
-.ftcountry a img {
-	margin-left: 8px;
-	line-height: 14px;
-}
-.ftcountry a {
-	text-decoration: none;
+
+.country span {
 	margin-left: 10px;
-	line-height: 14px;
-	color: #a4a4a4;
+	display: block;
+	float: right;
+	line-height: 19px;
+	font-size: 13px;
+	cursor: pointer;
+	color:#a49191;
+}
+.country span img {
+	margin-left: 8px;
+	margin-top:7px;
+	float: right;
+}
+.country form {
+	display: none;
 }
 /* ftbottom nav div stylin */
 .ftbottom-nav ul {

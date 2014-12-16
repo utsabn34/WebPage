@@ -7,7 +7,6 @@
 <link type="text/css" rel="stylesheet" href="css/layout.css" />
 <link type="text/css" rel="stylesheet" href="css/style.css" />
 <link type="text/css" rel="stylesheet" href="css/menu.css" />
-<link type="text/css" rel="stylesheet" href="css/language.css" />
 </head>
 <body>
 <div class="wrapper"> 
@@ -68,16 +67,16 @@
         <div class="tab"> 
           <!-- tab div -->
           <ul>
-            <li class="tab1"  ><a href="#">TAB 1</a></li>
-            <li ><a href="#">TAB 2</a></li>
-            <li ><a href="#">TAB 3</a></li>
+            <li class="active" id="tab1" >TAB 1</li>
+            <li id="tab2">TAB 2</li>
+            <li id="tab3" >TAB 3</li>
           </ul>
           <!-- close tab div --> 
         </div>
         <div class="main_divider"><img class="divider" src="img/main_divider.png" alt="divider"/> </div>
         <div class="products" id="product1">
           <ul>
-            <li><img src="img/glass1.png" alt="sport glass"/>
+            <li><img src="img/glass1.jpg" alt="sport glass"/>
               <h2>SPORT</h2>
               <p>With Oakley, athletes like Karena Dawn continue to make their mark on the world. And we're making our mark on them.</p>
               <span class="button"><a href="#">SHOP ALL</a> </span></li>
@@ -91,34 +90,34 @@
               <span class="button"><a href="#">SHOP ALL</a> </span></li>
           </ul>
         </div>
-                <div class="products" id="product2">
+        <div class="products" id="product2">
           <ul>
-            <li><img src="img/glass1.png" alt="sport glass"/>
-              <h2>SPORT</h2>
+            <li><img src="img/glass2.jpg" alt="sport glass"/>
+              <h2>SPORT2</h2>
               <p>With Oakley, athletes like Karena Dawn continue to make their mark on the world. And we're making our mark on them.</p>
               <span class="button"><a href="#">SHOP ALL</a> </span></li>
-            <li><img src="img/glass2.jpg" alt="active glass"/>
-              <h2>ACTIVE</h2>
+            <li><img src="img/glass3.jpg" alt="active glass"/>
+              <h2>ACTIVE2</h2>
               <p>The sunglasses in the Oakley Women's Active Sunglasses collection are for women who take fitness  seriously but spend even more time in pursuit of fun</p>
               <span class="button"><a href="#">SHOP ALL </a> </span></li>
-            <li><img src="img/glass3.jpg" alt="lifestyle glass"/>
-              <h2>LIFESTYLE</h2>
+            <li><img src="img/glass1.jpg" alt="lifestyle glass"/>
+              <h2>LIFESTYLE2</h2>
               <p>Living by their own rules is what makes women unique, and there's something for every woman in our Oakley Women's Lifestyle Sunglasses collection</p>
               <span class="button"><a href="#">SHOP ALL</a> </span></li>
           </ul>
         </div>
-         <div class="products" id="product3">
+        <div class="products" id="product3">
           <ul>
-            <li><img src="img/glass1.png" alt="sport glass"/>
-              <h2>SPORT</h2>
+            <li><img src="img/glass3.jpg" alt="sport glass"/>
+              <h2>SPORT3</h2>
               <p>With Oakley, athletes like Karena Dawn continue to make their mark on the world. And we're making our mark on them.</p>
               <span class="button"><a href="#">SHOP ALL</a> </span></li>
-            <li><img src="img/glass2.jpg" alt="active glass"/>
-              <h2>ACTIVE</h2>
+            <li><img src="img/glass1.jpg" alt="active glass"/>
+              <h2>ACTIVE3</h2>
               <p>The sunglasses in the Oakley Women's Active Sunglasses collection are for women who take fitness  seriously but spend even more time in pursuit of fun</p>
               <span class="button"><a href="#">SHOP ALL </a> </span></li>
-            <li><img src="img/glass3.jpg" alt="lifestyle glass"/>
-              <h2>LIFESTYLE</h2>
+            <li><img src="img/glass2.jpg" alt="lifestyle glass"/>
+              <h2>LIFESTYLE3</h2>
               <p>Living by their own rules is what makes women unique, and there's something for every woman in our Oakley Women's Lifestyle Sunglasses collection</p>
               <span class="button"><a href="#">SHOP ALL</a> </span></li>
           </ul>
@@ -169,7 +168,7 @@
         <ul>
           <li><a href="#">Women</a></li>
           <li><a href="#">Store</a></li>
-          <li><a href="#">Women's Sunglasses</a></li>
+          <li class="active"><a href="#">Women's Sunglasses</a></li>
         </ul>
         <!-- ftnav end--> 
       </div>
@@ -178,6 +177,7 @@
     <div class="ftbottom" > 
       <!-- ftbottom start-->
       <div class="country" id="country">
+        <div id="optionbar"> <img src="img/US_logo.png" id="flag"/> <span id="flagbtn">Change Country <img src="img/ft-arrow.png"/></span> </div>
         <form id="cntryform">
           <select name="flag">
             <option value="Nepal" pic="img/nepal_logo.png"></option>
@@ -185,7 +185,6 @@
             <option value="US" pic="img/US_logo.png"></option>
           </select>
         </form>
-        <div id="optionbar"> <img src="img/US_logo.png" id="flag"/> <span id="flagbtn">Change Country <img src="img/ft-arrow.png"/></span> </div>
       </div>
       <div class="ftbottom-nav"> 
         <!-- ftbottom-nav start-->
@@ -211,6 +210,8 @@
   <!-- end of wrapper div--> 
 </div>
 <script type="text/javascript" src="js/language.js">
+</script> 
+<script type="text/javascript" src="js/tabbing.js">
 </script>
 </body>
 </html>

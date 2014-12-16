@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-
+/*menu styling*/
 .menu ul {
 	float: left;
 }
@@ -17,19 +17,18 @@
 .menu ul li a {
 	background: #a49191;
 	line-height: 50px;
-	padding: 0px 16px;
-	margin: 15px 0px;
 	display: block;
 	text-decoration: none;
 	color: white;
+	padding: 0px 16px;
+	margin: 15px 0px;
 }
 .menu ul li ul {
 	display: none;
 	position: absolute;
 	background-color: #594e4e;
 	margin-top: -6px;
-	z-index: 10;
-	padding: 2px 0px 4px 0px;
+	padding: 2px 0px 6px 0px;
 }
 .menu ul li ul li {
 	float: none;
@@ -60,8 +59,6 @@
 }
 .menu ul li:hover ul li {
 	background: none;
-	margin: 0px;
-	padding: 0px 0px 0px 0px;
 	line-height: 28px;
 }
 .menu ul li:hover ul li a {
