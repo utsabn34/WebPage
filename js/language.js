@@ -28,7 +28,7 @@ function Country()
 		for(var i=0;i<that.choose.childElementCount;i++)
 		{
 			var option = that.choose.children[i];
-			var src = option.getAttribute("pic");
+			var src = option.getAttribute("src");
 			that.flags.push(src);
 			var source = option.value;
 			that.countryName.push(source);
