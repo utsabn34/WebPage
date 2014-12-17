@@ -70,6 +70,31 @@
     font-size: 16px;
     text-align: center;
 }
+/* slider styling*/
+.slider{
+
+height:190px;
+width:1000px;
+background:black;
+overflow:hidden;
+margin:0 auto;
+}
+
+.slider ul{
+list-style-type:none;
+width:10000px;
+}
+
+.slider ul li{
+float:left;
+}
+
+.slider img {
+height:190px;
+width:1000px;
+}
+
+
 /* tab styling*/
 .tab ul {
 	height: 50px;

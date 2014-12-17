@@ -66,9 +66,7 @@ function Country()
 			img.style.float="left";
 			li.appendChild(img);
 			img.setAttribute("src",that.flags[i]);
-			
-			
-			
+					
 			li.onclick = (function(i,ul)
 			{
 				return function()

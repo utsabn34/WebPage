@@ -13,6 +13,7 @@
 	font-size: 17px;
 	height: 80px;
 	color: white;
+	
 }
 .menu ul li a {
 	background: #a49191;
@@ -33,6 +34,7 @@
 .menu ul li ul li {
 	float: none;
 	height: 28px;
+	
 }
 .menu ul li ul li a {
 	background-color: #5a93e9;
